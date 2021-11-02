@@ -14,8 +14,8 @@ public class HelloWorld {
        
         String cipherText = "在此输入密文，多条用空格分割";
         
-        String key = "ks9KUrbWJj46AftX"; //黑洞、雷霆、蜜蜂通用密钥
-        //key = "awdtif20190619ti"; //旋风密钥
+        String key = "ks9KUrbWJj46AftX"; //heidong\leiting\mifeng KEY
+        //key = "awdtif20190619ti"; //xuanfen KEY
         
         String[] strArray=cipherText.split(" ");
         for (String text : strArray) {
