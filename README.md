@@ -13,3 +13,5 @@
 2、无法导入节点：和clash.net有冲突，因为clash.net也内置了subconverter，解决方法是直接删掉测速软件目录里的subconverter目录，但是这样的话在使用测速软件时就必须运行clash.net。或者先退出clash.net再测速
 
 3、切换测速配置文件失败：clash内核不允许 h2/grpc 的节点tls为false，解决方法是将传输协议为h2或者grpc的节点删除或者使用Xray内核测速
+
+## 订阅转换盗取节点 <https://youtu.be/u-tg9hJHLO0>
