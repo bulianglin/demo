@@ -44,10 +44,10 @@ config_xray() {
 	START_PORT=${START_PORT:-$DEFAULT_START_PORT}
 	if [ "$config_type" == "socks" ]; then
 		read -p "SOCKS 账号 (默认 $DEFAULT_SOCKS_USERNAME): " SOCKS_USERNAME
-		SOCKS_USERNAME=${SOCKS_USERNAME:-$DEFAULT_SOCKS_USERNAME}
+		SOCKS_USERNAME=""
 
 		read -p "SOCKS 密码 (默认 $DEFAULT_SOCKS_PASSWORD): " SOCKS_PASSWORD
-		SOCKS_PASSWORD=${SOCKS_PASSWORD:-$DEFAULT_SOCKS_PASSWORD}
+		SOCKS_PASSWORD=""
 	elif [ "$config_type" == "vmess" ]; then
 		read -p "UUID (默认随机): " UUID
 		UUID=${UUID:-$DEFAULT_UUID}
